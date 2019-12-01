@@ -23,3 +23,11 @@ fields:
     min: 
     max: 
   label: Ingredients
+- name: process
+  type: blocks
+  label: Process
+  template_types:
+  - process
+  config:
+    min: 
+    max: 
