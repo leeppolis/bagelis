@@ -31,3 +31,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- _posts/pane-di-semola-integrale.md
