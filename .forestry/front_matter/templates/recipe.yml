@@ -1,4 +1,25 @@
 ---
 label: Recipe
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: ingredients
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Ingredients
