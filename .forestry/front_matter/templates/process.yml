@@ -21,3 +21,8 @@ fields:
     schema:
       format: markdown
   label: Text
+- name: time
+  type: text
+  config:
+    required: false
+  label: Time
