@@ -6,6 +6,10 @@ ingredients:
 - Sale, 10g
 - Acqua, 120g
 - Farina di semola integrale, 500g
-process: []
+process:
+- template: process
+  sub-title: Il primo impasto
+  image: ''
+  text: Iniziamo col fare un primo impasto e lasciarlo lievitare un’ oretta.
 
 ---
