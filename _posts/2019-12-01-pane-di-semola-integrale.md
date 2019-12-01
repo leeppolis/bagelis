@@ -9,7 +9,7 @@ ingredients:
 process:
 - template: process
   sub-title: Il primo impasto
-  image: ''
+  image: "/uploads/D1E1CC95-D107-46C4-A22F-A3C62545C17B.png"
   text: Iniziamo col fare un primo impasto e lasciarlo lievitare un’ oretta.
 
 ---
