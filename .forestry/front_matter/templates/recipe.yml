@@ -1,7 +1,22 @@
 ---
 label: Recipe
-hide_body: true
+hide_body: false
+display_field: title
 fields:
+- name: layout
+  type: select
+  default: Recipe
+  config:
+    required: true
+    options:
+    - Post
+    - Recipe
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
 - name: title
   type: text
   config:
