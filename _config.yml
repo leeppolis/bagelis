@@ -28,7 +28,6 @@ twitter_username: simonelippolis
 
 # Build settings
 theme: minima
-plugins:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
