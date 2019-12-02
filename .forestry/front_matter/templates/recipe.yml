@@ -32,12 +32,13 @@ fields:
       format: markdown
   label: Description
 - name: ingredients
-  type: list
+  type: blocks
+  label: Ingredients
+  template_types:
+  - ingredients
   config:
-    use_select: false
     min: 
     max: 
-  label: Ingredients
 - name: process
   type: blocks
   label: Process
