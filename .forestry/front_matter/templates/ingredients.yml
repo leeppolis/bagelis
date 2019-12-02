@@ -1,4 +1,19 @@
 ---
 label: Ingredients
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+- name: quantity
+  type: text
+  config:
+    required: true
+  label: quantity
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
