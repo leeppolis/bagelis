@@ -31,5 +31,10 @@ process:
   image: ''
   text: ''
   time: ''
+- template: process
+  sub-title: Preparazione della "biga"
+  image: ''
+  text: ''
+  time: ''
 
 ---
