@@ -17,6 +17,9 @@ layout: default
                 <div class="texts">
                     <span class="name">{{ ingredient.name }}:</span>
                     <span class="quantity">{{ ingredient.quantity }}</span>
+                    {% if ingredient.note != '' %}
+                    <span class="note">{{ ingredient.note }}</span>
+                    {% endif %}
                 </div>
                 {% if ingredient.image != '' %}
                 <div class="image">
