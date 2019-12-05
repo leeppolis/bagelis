@@ -1,6 +1,6 @@
 ---
 label: Recipe
-hide_body: false
+hide_body: true
 display_field: title
 fields:
 - name: layout
@@ -47,3 +47,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- _posts/2019-12-05-pane.md
