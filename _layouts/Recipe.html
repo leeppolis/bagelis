@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
-<div class="bg-recipe">
+<div class="bg-container bg-recipe">
     <h1>{{ page.title }}</h1>
+    
+    {% if page.image != '' %}
+    <div class="image">
+        <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+    </div>
+    {% endif %}
 
     <div class="description">
         <p>{{ page.description }}</p>
@@ -17,13 +23,13 @@ layout: default
                 <div class="texts">
                     <span class="name">{{ ingredient.name }}:</span>
                     <span class="quantity">{{ ingredient.quantity }}</span>
-                    {% if ingredient.note != '' %}
-                    <span class="note">{{ ingredient.note }}</span>
+                    {% if ingredient.notes != '' %}
+                    <span class="notes">{{ ingredient.notes }}</span>
                     {% endif %}
                 </div>
                 {% if ingredient.image != '' %}
                 <div class="image">
-                    <img src="{{ ingredient.image }}" alt="{{ ingredient.name }}">
+                    <img src="{{ site.baseurl }}/{{ ingredient.image }}" alt="{{ ingredient.name }}">
                 </div>
                 {% endif %}
             </li>
@@ -50,7 +56,7 @@ layout: default
                 </div>
                 {% if step.image != '' %}
                 <div class="image">
-                    <img src="{{ step.image }}" alt="">
+                    <img src="{{ site.baseurl }}/{{ step.image }}" alt="">
                 </div>
                 {% endif %}
             </li>

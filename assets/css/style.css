@@ -13,27 +13,37 @@ h1, h2, h3, h4, h5 {
 }
 
 .bg-header {
-    background: #000 url(../img/bricks2.jpg) center center no-repeat;
     background-size: cover;
     display: block;
-    height: 60vh;
+    height: 40px;
     margin: 0 auto;
+    max-width: 900px;
     padding: 0 20px;
     width: auto;
 }
 
-@media screen and (min-width:768px) {
-    .bg-header {
-        height: 30vh;
-    }
-}
-
 .bg-header h1 {
+    color: #444;
     font-size: 20px;
     line-height: 40px;
     margin: 0;
     padding: 0;
     text-align: left;
+}
+
+.bg-header h1 a {
+    color: #444;
+    text-decoration: none;
+}
+
+@media screen and (min-width:768px) {
+    .bg-header {
+        height: 60px;
+    }
+
+    .bg-header h1 {
+        line-height: 60px;
+    }
 }
 
 .bg-footer {
@@ -49,14 +59,22 @@ h1, h2, h3, h4, h5 {
     display: block;
     margin: 0 auto;
     max-width: 900px;
-    min-height: 40vh;
+    min-height: 100vh;
 }
 
-@media screen and (min-width:768px) {
-    .bg-home {
-        min-height: 70vh;
-    }
+.bg-container {
+    background-size: cover;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 20px;
+    width: auto;
 }
+
+
+/* Recipe */
+
 
 .bg-recipe .quantity {
     font-family: 'IBM Plex Mono', monospace;
