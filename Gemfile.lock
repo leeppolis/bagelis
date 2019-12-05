@@ -3,6 +3,8 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bagelis-theme (0.1.0)
+      jekyll (~> 4.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
@@ -73,6 +75,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bagelis-theme
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
