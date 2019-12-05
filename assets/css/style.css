@@ -28,8 +28,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .bg-header h1 {
-    color: #444;
-    font-size: 22px;
+    color: rgb(200,0,0);
+    font-size: 18px;
     line-height: 40px;
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .bg-header h1 a {
-    color: #444;
+    color: rgb(200,0,0);
     text-decoration: none;
 }
 
@@ -87,24 +87,42 @@ h1, h2, h3, h4, h5 {
     padding: 0;
 }
 
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .post-list li {
+    flex: 1 1 auto;
     margin-bottom: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
 }
 
 .post-list h3 {
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    letter-spacing: .25em;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .post-list a {
     color: #444;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
+    display: inline-block;
     text-decoration: none;
-    text-transform: uppercase;
+}
+
+.post-list a:hover,
+.post-list a:active {
+    border-bottom: 1px solid rgb(200,0,0);
+    color: rgb(200, 0, 0);
 }
 
 .post-list .bullet {
-    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(200, 0, 0);
+    display: inline-block;
 }
 
 
@@ -113,4 +131,31 @@ h1, h2, h3, h4, h5 {
 
 .bg-recipe .quantity {
     font-family: 'IBM Plex Mono', monospace;
+}
+
+.bg-recipe h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+}
+
+.bg-recipe h1 span {
+    color: rgb(200, 0, 0);
+    display: inline-block;
+}
+
+.bg-recipe .image {
+    border-radius: 0 25vh 0 0;
+    display: block;
+    height: 50vh;
+    overflow: hidden;
+    width: auto;
+}
+
+.bg-recipe .image img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
 }
