@@ -8,6 +8,10 @@ ingredients:
   name: Acqua
   quantity: 250g
   image: ''
+- template: ingredients
+  name: Farina
+  quantity: 600g
+  image: ''
 process: []
 
 ---
