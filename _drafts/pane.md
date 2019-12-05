@@ -21,6 +21,10 @@ ingredients:
   quantity: 42g di lievito madre secco, ma è meglio controllare il dosaggio indicato
     per il tipo di lievito che usi
   image: ''
+- template: ingredients
+  name: Miele
+  quantity: 1 cucchiaino
+  image: ''
 process: []
 
 ---
