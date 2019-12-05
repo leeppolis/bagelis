@@ -12,6 +12,10 @@ ingredients:
   name: Farina
   quantity: 600g
   image: ''
+- template: ingredients
+  name: Sale
+  quantity: 2 cucchiaini
+  image: ''
 process: []
 
 ---
