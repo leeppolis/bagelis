@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="bg-recipe">
+    <h1>{{ page.title }}</h1>
+
+    <div class="description">
+        <p>{{ page.description }}</p>
+    </div>
+
+    <div class="ingredients">
+        <h2>Ingredienti</h2>
+
+        <ul>
+            {% for ingredient in page.ingredients %}
+            <li>
+                <div class="texts">
+                    <span class="name">{{ ingredient.name }}:</span>
+                    <span class="quantity">{{ ingredient.quantity }}</span>
+                </div>
+                {% if ingredient.image != '' %}
+                <div class="image">
+                    <img src="{{ ingredient.image }}" alt="{{ ingredient.name }}">
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="preparation">
+        <h2>Preparazione</h2>
+
+        <ul>
+            {% for step in page.process %}
+            <li>
+                <div class="texts">
+                    {% if step.sub-title != '' %}
+                    <h3 class="sub-title">{{ step.sub-title }}</h3>
+                    {% endif %}
+                    {% if step.text != '' %}
+                    <p class="text">{{ step.text }}</p>
+                    {% endif %}
+                    {% if step.time != '' %}
+                    <p class="time">Tempo: {{ step.time }}</p>
+                    {% endif %}
+                </div>
+                {% if step.image != '' %}
+                <div class="image">
+                    <img src="{{ step.image }}" alt="">
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
