@@ -25,6 +25,11 @@ ingredients:
   name: Miele
   quantity: 1 cucchiaino
   image: ''
-process: []
+process:
+- template: process
+  sub-title: Preparazione del lievito
+  image: ''
+  text: ''
+  time: ''
 
 ---
