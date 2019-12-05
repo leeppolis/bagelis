@@ -16,6 +16,11 @@ ingredients:
   name: Sale
   quantity: 2 cucchiaini
   image: ''
+- template: ingredients
+  name: Lievito
+  quantity: 42g di lievito madre secco, ma è meglio controllare il dosaggio indicato
+    per il tipo di lievito che usi
+  image: ''
 process: []
 
 ---
