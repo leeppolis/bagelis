@@ -1,8 +1,10 @@
 body {
-    background: yellow;
-    color: green;
+    background: #fff;
+    color: #444;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -10,4 +12,50 @@ h1, h2, h3, h4, h5 {
     font-weight: 300;
     letter-spacing: .001rem;
     text-transform: uppercase;
+}
+
+.bg-header {
+    background: #000 url(../img/bricks2.jpg) center center no-repeat;
+    background-size: cover;
+    display: block;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: auto;
+}
+
+@media screen and (min-width:768px) {
+    .bg-header {
+        height: 30vh;
+    }
+}
+
+.bg-header h1 {
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.bg-footer {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 20px;
+    width: auto;
+}
+
+.bg-home {
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+    min-height: 40vh;
+}
+
+@media screen and (min-width:768px) {
+    .bg-home {
+        min-height: 70vh;
+    }
 }
