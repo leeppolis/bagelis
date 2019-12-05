@@ -1,5 +1,5 @@
 ---
-label: Ingredients
+label: "[F] Ingredients"
 hide_body: true
 fields:
 - name: name
