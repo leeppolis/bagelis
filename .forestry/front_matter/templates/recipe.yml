@@ -97,5 +97,6 @@ fields:
     labelField: 
   label: Process
 pages:
+- _posts/bagels.md
 - _posts/pane.md
 - _posts/pizza.md
