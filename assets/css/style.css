@@ -23,6 +23,15 @@ p {
     margin: 0 0 30px 0;
 }
 
+p:last-child {
+    margin-bottom: 0;
+}
+
+p:empty {
+    display: none;
+    margin: 0;
+}
+
 .bg-header {
     background-size: cover;
     display: block;
@@ -151,6 +160,7 @@ p {
 
 .bg-recipe h2 {
     font-weight: 400;
+    margin-bottom: 30px;
     text-transform: uppercase;
 }
 
@@ -159,4 +169,12 @@ p {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.bg-recipe .blocks > li {
+    margin-bottom: 60px;
+}
+
+.bg-recipe h3 {
+
 }
