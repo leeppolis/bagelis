@@ -9,7 +9,7 @@ fields:
     required: false
   label: Layout
   default: Recipe
-  hidden: true
+  hidden: false
 - name: title
   type: text
   config:
