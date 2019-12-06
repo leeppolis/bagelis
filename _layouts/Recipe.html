@@ -15,6 +15,7 @@ layout: default
             {% for ingredient in page.ingredients %}
             <li>
                 <div class="texts">
+                    <span class="bullet">⟩</span>
                     <span class="name">{{ ingredient.name }}:</span>
                     <span class="quantity">{{ ingredient.quantity }}</span>
                 </div>
@@ -33,7 +34,7 @@ layout: default
         </ul>
     </div>
 
-    <div class="preparation">
+    <div class="steps">
         <h2>Preparazione</h2>
 
         <ul class="blocks">
