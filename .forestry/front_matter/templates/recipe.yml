@@ -65,3 +65,35 @@ fields:
     max: 
     labelField: 
   label: Ingredients
+- name: process
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  - name: time
+    type: text
+    config:
+      required: false
+    label: Time
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Process
