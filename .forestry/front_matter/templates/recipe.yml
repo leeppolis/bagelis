@@ -96,3 +96,5 @@ fields:
     max: 
     labelField: 
   label: Process
+pages:
+- _posts/pane.md
