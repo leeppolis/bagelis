@@ -3,9 +3,9 @@
 }
 
 body {
-    background: #fff;
+    background: #efefef;
     color: #444;
-    font-family: 'Merriweather', serif;
+    font-family: 'Nanum Gothic Coding', monospace;
     font-weight: 400;
     line-height: 1.5;
     margin: 0;
@@ -14,7 +14,6 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-weight: 700;
-    letter-spacing: 1px;
     margin: 0;
     padding: 0;
 }
@@ -106,14 +105,14 @@ p {
 
 .post-list h3 {
     display: block;
-    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
-    letter-spacing: .25em;
+    font-weight: 400;
     margin: 0;
     text-transform: uppercase;
 }
 
 .post-list a {
+    border-bottom: 1px solid transparent;
     color: #444;
     display: inline-block;
     text-decoration: none;
@@ -135,13 +134,11 @@ p {
 
 
 .bg-recipe .quantity {
-    font-family: 'IBM Plex Mono', monospace;
 }
 
 .bg-recipe h1 {
-    font-family: 'IBM Plex Mono', monospace;
     font-size: 22px;
-    letter-spacing: .25em;
+    font-weight: 400;
     margin: 0;
     text-transform: uppercase;
 }

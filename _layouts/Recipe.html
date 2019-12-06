@@ -1,76 +1,62 @@
 ---
 layout: default
 ---
-<div class="bg-recipe">
-    {% if page.image != '' %}
-    <div class="bg-image">
-        <img src="{{ site.url }}/{{ site.baseurl }}/{{ page.image }}" alt="">
-        <div class="title">
-            <div class="bg-container">
-                <h1><span class="bullet">⟩</span> {{ page.title }}</h1>
-            </div>
-        </div>
-    </div>
-    {% endif %}
-    {% if page.image == '' %}
-        <div class="bg-container">
-            <h1><span class="bullet">⟩</span> {{ page.title }}</h1>
-        </div>
-    {% endif %}
+<div class="bg-recipe bg-container">
     <div class="bg-container">
+        <h1><span class="bullet">⟩</span> {{ page.title }}</h1>
+    </div>
 
-        <div class="description">
-            <p>{{ page.description }}</p>
-        </div>
+    <div class="description">
+        <p>{{ page.description }}</p>
+    </div>
 
-        <div class="ingredients">
-            <h2>Ingredienti</h2>
+    <div class="ingredients">
+        <h2>Ingredienti</h2>
 
-            <ul>
-                {% for ingredient in page.ingredients %}
-                <li>
-                    <div class="texts">
-                        <span class="name">{{ ingredient.name }}:</span>
-                        <span class="quantity">{{ ingredient.quantity }}</span>
-                        {% if ingredient.notes != '' %}
-                        <span class="notes">{{ ingredient.notes }}</span>
-                        {% endif %}
-                    </div>
-                    {% if ingredient.image != '' %}
-                    <div class="image">
-                        <img src="{{ site.url }}/{{ site.baseurl }}/{{ ingredient.image }}" alt="{{ ingredient.name }}">
-                    </div>
+        <ul>
+            {% for ingredient in page.ingredients %}
+            <li>
+                <div class="texts">
+                    <span class="name">{{ ingredient.name }}:</span>
+                    <span class="quantity">{{ ingredient.quantity }}</span>
+                    {% if ingredient.notes != '' %}
+                    <span class="notes">{{ ingredient.notes }}</span>
                     {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+                </div>
+                {% if ingredient.image != '' %}
+                <div class="image">
+                    <img src="{{ site.url }}/{{ site.baseurl }}/{{ ingredient.image }}" alt="{{ ingredient.name }}">
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 
-        <div class="preparation">
-            <h2>Preparazione</h2>
+    <div class="preparation">
+        <h2>Preparazione</h2>
 
-            <ul>
-                {% for step in page.process %}
-                <li>
-                    <div class="texts">
-                        {% if step.sub-title != '' %}
-                        <h3 class="sub-title">{{ step.sub-title }}</h3>
-                        {% endif %}
-                        {% if step.text != '' %}
-                        <p class="text">{{ step.text }}</p>
-                        {% endif %}
-                        {% if step.time != '' %}
-                        <p class="time">Tempo: {{ step.time }}</p>
-                        {% endif %}
-                    </div>
-                    {% if step.image != '' %}
-                    <div class="image">
-                        <img src="{{ site.url }}/{{ site.baseurl }}/{{ step.image }}" alt="">
-                    </div>
+        <ul>
+            {% for step in page.process %}
+            <li>
+                <div class="texts">
+                    {% if step.sub-title != '' %}
+                    <h3 class="sub-title">{{ step.sub-title }}</h3>
                     {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+                    {% if step.text != '' %}
+                    <p class="text">{{ step.text }}</p>
+                    {% endif %}
+                    {% if step.time != '' %}
+                    <p class="time">Tempo: {{ step.time }}</p>
+                    {% endif %}
+                </div>
+                {% if step.image != '' %}
+                <div class="image">
+                    <img src="{{ site.url }}/{{ site.baseurl }}/{{ step.image }}" alt="">
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
