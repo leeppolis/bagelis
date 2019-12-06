@@ -3,21 +3,6 @@ label: Recipe
 hide_body: true
 display_field: title
 fields:
-- name: layout
-  type: select
-  default: Recipe
-  config:
-    required: true
-    options:
-    - Post
-    - Recipe
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Layout
-  hidden: true
 - name: title
   type: text
   config:
