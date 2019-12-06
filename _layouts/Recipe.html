@@ -35,14 +35,14 @@ layout: default
         <h2>Preparazione</h2>
 
         <ul>
-            {% for step in page.process %}
+            {% for step in page.steps %}
             <li>
                 <div class="texts">
-                    {% if step.sub-title != '' %}
-                    <h3 class="sub-title">{{ step.sub-title }}</h3>
+                    {% if step.title != '' %}
+                    <h3 class="title">{{ step.title }}</h3>
                     {% endif %}
-                    {% if step.text != '' %}
-                    <p class="text">{{ step.text }}</p>
+                    {% if step.description != '' %}
+                    <p class="description">{{ step.description }}</p>
                     {% endif %}
                     {% if step.time != '' %}
                     <p class="time">Tempo: {{ step.time }}</p>
