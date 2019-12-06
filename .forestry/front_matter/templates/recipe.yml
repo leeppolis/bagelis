@@ -67,6 +67,31 @@ fields:
   label: Ingredients
 - name: steps
   type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: time
+    type: text
+    config:
+      required: false
+    label: Time
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
   config:
     min: 
     max: 
