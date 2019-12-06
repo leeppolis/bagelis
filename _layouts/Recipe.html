@@ -5,7 +5,7 @@ layout: default
     <h1><span class="bullet">⟩</span> {{ page.title }}</h1>
 
     <div class="description">
-        <p>{{ page.description }}</p>
+        <p>{{ page.description | markdownify }}</p>
     </div>
 
     <div class="ingredients">
@@ -18,7 +18,7 @@ layout: default
                     <span class="name">{{ ingredient.name }}:</span>
                     <span class="quantity">{{ ingredient.quantity }}</span>
                     {% if ingredient.notes != '' %}
-                    <span class="notes">{{ ingredient.notes }}</span>
+                    <span class="notes">{{ ingredient.notes | markdownify }}</span>
                     {% endif %}
                 </div>
                 {% if ingredient.image != '' %}
@@ -42,7 +42,7 @@ layout: default
                     <h3 class="title">{{ step.title }}</h3>
                     {% endif %}
                     {% if step.description != '' %}
-                    <p class="description">{{ step.description }}</p>
+                    <p class="description">{{ step.description | markdownify }}</p>
                     {% endif %}
                     {% if step.time != '' %}
                     <p class="time">Tempo: {{ step.time }}</p>
