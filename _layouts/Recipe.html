@@ -4,7 +4,7 @@ layout: default
 <div class="bg-recipe">
     {% if page.image != '' %}
     <div class="bg-image">
-        <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+        <img src="{{ site.url }}/{{ site.baseurl }}/{{ page.image }}" alt="">
         <div class="title">
             <div class="bg-container">
                 <h1><span class="bullet">⟩</span> {{ page.title }}</h1>
@@ -38,7 +38,7 @@ layout: default
                     </div>
                     {% if ingredient.image != '' %}
                     <div class="image">
-                        <img src="{{ site.baseurl }}/{{ ingredient.image }}" alt="{{ ingredient.name }}">
+                        <img src="{{ site.url }}/{{ site.baseurl }}/{{ ingredient.image }}" alt="{{ ingredient.name }}">
                     </div>
                     {% endif %}
                 </li>
@@ -65,7 +65,7 @@ layout: default
                     </div>
                     {% if step.image != '' %}
                     <div class="image">
-                        <img src="{{ site.baseurl }}/{{ step.image }}" alt="">
+                        <img src="{{ site.url }}/{{ site.baseurl }}/{{ step.image }}" alt="">
                     </div>
                     {% endif %}
                 </li>
