@@ -3,6 +3,13 @@ label: Recipe
 hide_body: true
 display_field: title
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: Recipe
+  hidden: true
 - name: title
   type: text
   config:
