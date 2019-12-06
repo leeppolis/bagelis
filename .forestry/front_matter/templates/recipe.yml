@@ -3,21 +3,6 @@ label: Recipe
 hide_body: true
 display_field: title
 fields:
-- name: layout
-  type: select
-  default: Recipe
-  config:
-    required: true
-    options:
-    - Post
-    - Recipe
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Layout
-  hidden: true
 - name: title
   type: text
   config:
@@ -65,7 +50,7 @@ fields:
     max: 
     labelField: 
   label: Ingredients
-- name: process
+- name: steps
   type: field_group_list
   fields:
   - name: title
@@ -82,23 +67,20 @@ fields:
       schema:
         format: markdown
     label: Description
-  - name: image
-    type: image_gallery
-    config: {}
-    label: Image
   - name: time
     type: text
     config:
       required: false
     label: Time
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
   config:
     min: 
     max: 
     labelField: 
-  label: Process
+  label: Steps
 pages:
-- _posts/bagels.md
-- _posts/insalata-di-tonno.md
-- _posts/pane.md
-- _posts/pizza.md
-- _posts/lenticchie-piccanti.md
+- _posts/2019-12-06-pane.md
