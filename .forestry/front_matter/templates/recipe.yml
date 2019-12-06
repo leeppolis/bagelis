@@ -82,3 +82,5 @@ fields:
     max: 
     labelField: 
   label: Steps
+pages:
+- _posts/pane.md

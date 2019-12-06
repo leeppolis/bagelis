@@ -1,0 +1,76 @@
+---
+title: Pane
+description: La ricetta originale era per un pane di semola rimacinata, ma ho visto
+  che con qualche correzione può funzionare bene anche con la farina di grano tenero
+  (io uso la 1 o la integrale) e con la semola integrale.
+image: ''
+ingredients:
+- name: Farina
+  quantity: 600g
+  notes: ''
+  image: ''
+- name: Acqua
+  quantity: 400g
+  notes: ''
+  image: ''
+- name: Lievito
+  notes: Io uso il lievito madre secco, il tipo che uso prevede che sia in proporzione
+    del 7% sul peso della farina. Con lieviti diversi è meglio verificare.
+  image: ''
+  quantity: 40g
+- name: Miele
+  quantity: 1 cucchiaino
+  notes: ''
+  image: ''
+- name: Sale
+  quantity: 15g
+  notes: ''
+  image: ''
+steps:
+- title: Preparazione della "biga"
+  description: "In questa ricetta andiamo a preparare una sorta di \"biga\" con una
+    parte della farina e dell'acqua, che lasceremo riposare un paio d'ore dopo l'impasto.\n\n-
+    Sciogliere il lievito in 100g di acqua e aggiungere un cucchiaino di miele. \n-
+    Aggiungere 100g di farina e impastare finché tutto il liquido viene assorbito.
+    Se usate una impastatrice o un Bimby, dovrebbe bastare 1 minuto.\n\nMettere a
+    riposare per un paio d'ore in una ciotola coperta (o lasciarlo dentro all'impastatrice)."
+  time: 5 minuti + 2 ore
+  image: ''
+- description: |-
+    Passate le due ore, aggiungere i rimanenti 500g di farina, 300g di acqua e 15g di sale.
+
+    Impastare finché la pasta ha una consistenza morbida (nell'impastatrice 4/5 minuti), lasciare riposare 10 minuti e impastare nuovamente.
+
+    Spostare la pasta su un piano, e fare le "tre pieghe"; mettere l'impasto in una ciotola grande e coprirlo con la pellicola trasparente.
+  time: 5 minuti + 10 minuti + 5 minuti
+  image: ''
+  title: Impasto
+- title: Lievitazione
+  description: Lasciar lievitare l'impasto nella ciotola in frigorifero per 10/12
+    ore.
+  time: 10 ore
+  image: ''
+- title: Preparazione alla cottura
+  description: |-
+    Una volta lievitato, prendi l'impasto e rimettilo sul piano di lavoro. Reimpastalo velocemente e ripeti nuovamente le "tre pieghe".
+
+    Lascialo riposare un paio d'ore a temperatura ambiente, magari sulla placca del forno coperta di carta forno con una spolverata di farina.
+  time: 2 ore
+  image: ''
+- title: Cottura
+  description: |-
+    Togli la placca col pane dal forno, e porta la temperatura a 240C. Nel frattempo, fa' i tagli sul pane, e spolvera la superficie con un po' di farina.
+
+    Metti sul fondo del forno una teglia con dell'acqua e del sale grosso e, se ti va, delle erbe (timo, maggiorana, ecc.) che daranno al pane un buon profumo.
+
+    Una volta che il forno arriva in temperatura, infila **velocemente** dentro il pane (attento a non far uscire tutto il vapore che si è creato) e abbassa la temperatura a 220C.
+
+    Dopo circa 20 minuti, togli la teglia con l'acqua (attenzione, sarà rovente), abbassa la temperatura a 200C e lascia cuocere per altri 15 minuti.
+
+    Passato questo tempo, abbassa la temperatura a 180C e cuoci per altri 15 minuti con la porta del forno leggermente aperta (puoi tenerla aperta con un cucchiaio di legno): questo eliminerà l'umidità dal forno, e aiuterà il pane a fare una bella crosta.
+
+    Una volta terminata la cottura, lascia raffreddare la pagnotta su una griglia, magari in verticale, in modo che non si formi umidità sul fondo.
+  time: 20 minuti + 15 minuti + 15 minuti
+  image: ''
+
+---
