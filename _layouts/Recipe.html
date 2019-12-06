@@ -17,10 +17,12 @@ layout: default
                 <div class="texts">
                     <span class="name">{{ ingredient.name }}:</span>
                     <span class="quantity">{{ ingredient.quantity }}</span>
-                    {% if ingredient.notes != '' %}
-                    <span class="notes">{{ ingredient.notes | markdownify }}</span>
-                    {% endif %}
                 </div>
+                {% if ingredient.notes != '' %}
+                    <div class="notes">
+                        {{ ingredient.notes | markdownify }}
+                    </div>
+                {% endif %}
                 {% if ingredient.image != '' %}
                 <div class="image">
                     <img src="{{ site.url }}/{{ site.baseurl }}/{{ ingredient.image }}" alt="{{ ingredient.name }}">
@@ -34,7 +36,7 @@ layout: default
     <div class="preparation">
         <h2>Preparazione</h2>
 
-        <ul>
+        <ul class="blocks">
             {% for step in page.steps %}
             <li>
                 <div class="texts">

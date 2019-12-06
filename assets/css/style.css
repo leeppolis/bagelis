@@ -153,3 +153,10 @@ p {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+.bg-recipe .blocks,
+.bg-recipe .blocks > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
