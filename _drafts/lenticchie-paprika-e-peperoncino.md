@@ -36,8 +36,17 @@ ingredients:
   image: ''
 steps:
 - title: Preparazione
-  description: Mettere il **soffritto** sul fuoco con l’**olio** e far rosolare. Dopo
-    pochi minuti aggiungere la **paprika**.
+  description: "Mettere il **soffritto** sul fuoco con l’**olio** e far rosolare.
+    Dopo pochi minuti aggiungere la **paprika** e lasciare andare qualche minuto.\n\nAggiungere
+    il **peperoncino** tagliato a metà per il lungo.\n\nAggiungere le **lenticchie**
+    e mescolare. Dopo pochi minuti, aggiungere un po’d’**acqua**, il sale e il dado.
+    \n\nLasciar cuocere per 10/15 minuti coperto, girando di tanto in tanto e aggiustando
+    di acqua se necessario. Far cuocere gli ultimi minuti senza coperchio in modo
+    che si asciughi un po’."
+  time: 15/20 minuti
+  image: ''
+- title: Servire con...
+  description: Per me è un piatto unico, accompagnato da fette di pane integrale tostate.
   time: ''
   image: ''
 
