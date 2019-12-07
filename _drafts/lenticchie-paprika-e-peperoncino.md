@@ -34,6 +34,11 @@ ingredients:
   quantity: q.b.
   notes: ''
   image: ''
-steps: []
+steps:
+- title: Preparazione
+  description: Mettere il **soffritto** sul fuoco con l’**olio** e far rosolare. Dopo
+    pochi minuti aggiungere la **paprika**.
+  time: ''
+  image: ''
 
 ---
