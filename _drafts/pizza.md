@@ -29,6 +29,17 @@ ingredients:
   quantity: 50g
   notes: ''
   image: ''
-steps: []
+steps:
+- title: Impasto
+  time: 10 minuti + 12 ore
+  image: ''
+  description: |-
+    Mescolare acqua, lievito e miele.
+
+    Aggiungere la farina, l’olio e il sale e impastare finché non si ottiene un impasto solido.
+
+    Effettuare le “tre pieghe” e mettere la pasta a lievitare in un contenitore leggermente unto coperto con la pellicola.
+
+    Lasciare lievitare tutta notte nel forno spento.
 
 ---
