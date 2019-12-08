@@ -9,6 +9,13 @@ fields:
   label: Layout
   hidden: true
   default: Tools
+- name: category
+  type: text
+  config:
+    required: false
+  label: Category
+  hidden: true
+  default: Tools
 - name: title
   type: text
   config:
