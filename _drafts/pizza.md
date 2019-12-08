@@ -30,6 +30,15 @@ ingredients:
   notes: ''
   image: ''
 steps:
+- title: Cottura
+  description: "Immediatamente prima di cuocerle, “tirare” le palline che nel frattempo
+    avranno nuovamente lievitato. Una pallina corrisponde a una pizza. Se l’impasto
+    è corretto, dovrebbe essere molto semplice tirarle.\n\nCondire come si preferisce,
+    con questo impasto vengono bene anche le pizze bianche e le focacce. \n\nSe le
+    cuocete nel forno [G3 Ferrari](https://amzn.to/2RAet8f) saranno sufficienti 2/3
+    minuti per ottenere una pizza perfetta."
+  time: ''
+  image: ''
 - title: Impasto
   time: 10 minuti + 12 ore
   image: ''
@@ -41,5 +50,12 @@ steps:
     Effettuare le “tre pieghe” e mettere la pasta a lievitare in un contenitore leggermente unto coperto con la pellicola.
 
     Lasciare lievitare tutta notte nel forno spento.
+- title: Preparazione delle palline
+  description: |-
+    Al mattino successivo, dare alla pasta lievitata una forma da “biscione” e separarla in 5 panetti da 200g circa ciascuno.
+
+    Reimpastare ogni panetto, ed eseguire le “tre pieghe”. Mettere i panetti a lievitare a temperatura ambiente in un contenitore coperto.
+  time: ''
+  image: ''
 
 ---
