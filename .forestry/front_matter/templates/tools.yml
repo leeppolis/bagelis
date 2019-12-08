@@ -9,6 +9,10 @@ fields:
   label: Layout
   hidden: true
   default: Tools
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
 - name: title
   type: text
   config:
