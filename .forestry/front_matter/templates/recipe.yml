@@ -10,6 +10,10 @@ fields:
   label: Layout
   default: Recipe
   hidden: true
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
 - name: title
   type: text
   config:
