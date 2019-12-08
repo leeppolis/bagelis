@@ -49,5 +49,7 @@ steps:
   description: Per me è un piatto unico, accompagnato da fette di pane integrale tostate.
   time: ''
   image: ''
+categories:
+- Recipes
 
 ---
