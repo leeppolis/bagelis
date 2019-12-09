@@ -34,6 +34,7 @@ p:empty {
 
 a {
     color: rgb(200,0,0);
+    text-decoration: none;
 }
 
 .bg-header {
