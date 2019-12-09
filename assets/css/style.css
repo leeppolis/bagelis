@@ -32,6 +32,10 @@ p:empty {
     margin: 0;
 }
 
+a {
+    color: rgb(200,0,0);
+}
+
 .bg-header {
     background-size: cover;
     display: block;
@@ -217,4 +221,10 @@ p:empty {
 
 .bg-recipe .steps .blocks ul li {
     margin-bottom: 15px;
+}
+
+.bg-recipe strong {
+    background: yellow;
+    box-shadow: 0 0 2px 0 yellow;
+    font-weight: 700;
 }
