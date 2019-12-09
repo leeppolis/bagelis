@@ -13,6 +13,15 @@ fields:
   type: tag_list
   default: []
   label: Categories
+- name: keywords
+  type: tag_list
+  default: []
+  label: Keywords
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
 - name: title
   type: text
   config:
