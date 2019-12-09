@@ -14,12 +14,21 @@ fields:
   type: tag_list
   default: []
   label: Categories
+- name: keywords
+  type: tag_list
+  default: []
+  label: Keywords
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
 - name: title
   type: text
   config:
     required: true
   label: Title
-- name: description
+- name: intro
   type: textarea
   default: ''
   config:
@@ -27,7 +36,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Description
+  label: Intro
 - name: image
   type: file
   config:
@@ -94,6 +103,6 @@ fields:
     labelField: 
   label: Steps
 pages:
+- _posts/2019-12-08-pizza.md
 - _posts/2019-12-07-lenticchie-paprika-e-peperoncino.md
 - _posts/2019-12-06-pane.md
-- _posts/2019-12-08-pizza.md
