@@ -81,6 +81,10 @@ p:empty {
     min-height: 100vh;
 }
 
+.bg-home h2 {
+    margin-bottom: 30px;
+}
+
 .bg-container {
     background-size: cover;
     display: block;
@@ -103,6 +107,7 @@ p:empty {
 .post-list {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .post-list li {
