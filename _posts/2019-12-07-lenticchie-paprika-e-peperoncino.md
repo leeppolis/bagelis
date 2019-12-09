@@ -1,7 +1,7 @@
 ---
 layout: Recipe
 title: Lenticchie paprika e peperoncino
-description: La cena d’emergenza
+description: Una ricetta semplice e veloce per fare ottime lenticchie
 image: ''
 ingredients:
 - name: Lenticchie
@@ -51,5 +51,11 @@ steps:
   image: ''
 categories:
 - Recipes
+keywords:
+- lenticchie
+- ricetta lenticchie
+- ricetta veloce per lenticchie
+- paprika
+intro: La cena d’emergenza.
 
 ---
