@@ -22,11 +22,14 @@ ingredients:
   notes: ''
   image: ''
 - name: Lievito di Birra
-  notes: ''
+  notes: La quantità di lievito dipende dalla temperatura e dalla forza della farina.
+    Per gran parte delle farine "da supermercato" non è possibile risalire alla "forza"
+    quindi in generale tieni presente che a una temperatura minore corrisponde una
+    maggiore quantità di lievito.
   image: ''
-  quantity: 3g (1g)
+  quantity: 3g/5g (1g/2g)
 - name: Sale
-  quantity: 50g (30g)
+  quantity: 50g (25g/30g)
   notes: ''
   image: ''
 steps:
