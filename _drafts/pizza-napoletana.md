@@ -1,6 +1,7 @@
 ---
 layout: Recipe
-categories: []
+categories:
+- Recipes
 keywords:
 - pizza
 - " farina"
