@@ -45,7 +45,7 @@ steps:
     Inizia ora ad aggiungere, piano piano, il resto della farina. Impasta finché la farina si sia assorbita completamente.
 
     Una volta incorporata tutta la farina, continua a impastare per una ventina di minuti. L'impasto deve essere appiccicoso e elastico, ma non deve attaccarsi alle dita. Pungendolo con un dito deve formarsi un buco che si "rigornfia" non appena rimosso il dito. Aggiusta quindi la farina finché non avrai ottenuto la consistenza desiderata.
-  time: ''
+  time: 20 minuti
   image: ''
 - title: Prima lievitazione
   description: L'impasto così ottenuto va quindi messo a riposare un paio d'ore, in
