@@ -29,7 +29,7 @@ ingredients:
   image: ''
   quantity: 3g/5g (1g/2g)
 - name: Sale
-  quantity: 50g (25g/30g)
+  quantity: 50g (15g/18g)
   notes: ''
   image: ''
 steps:
